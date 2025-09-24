@@ -7,8 +7,8 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ activePage = 'Home' }) => {
   const navItems = [
-    { name: "Home", href: "./index.html" },
-    { name: "Shop", href: "./shop.html" },
+    { name: "Home", href: "index.html" },
+    { name: "Shop", href: "shop.html" },
     { name: "About Us", href: "#" },
     { name: "Contact Us", href: "#" },
   ];
